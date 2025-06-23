@@ -1,0 +1,110 @@
+[23-Jun-2025 08:29:59 UTC] Starting CV processing test...
+[23-Jun-2025 08:31:44 UTC] Starting CV processing test...
+[23-Jun-2025 08:35:07 UTC] === Starting CV processing test ===
+[23-Jun-2025 08:35:07 UTC] Server Info: Linux 4dfnqm 6.1.43 #1 SMP PREEMPT_DYNAMIC Sun Aug  6 20:05:33 UTC 2023 x86_64
+[23-Jun-2025 08:35:07 UTC] PHP Version: 8.2.13
+[23-Jun-2025 08:35:07 UTC] Max Upload Size: 2M
+[23-Jun-2025 08:35:07 UTC] Max Post Size: 8M
+[23-Jun-2025 08:35:07 UTC] Upload directory ready: /project/sandbox/user-workspace/uploads
+[23-Jun-2025 08:35:07 UTC] Directory permissions: 0777
+[23-Jun-2025 08:39:02 UTC] === Starting CV processing test ===
+[23-Jun-2025 08:39:02 UTC] Server Info: Linux 4dfnqm 6.1.43 #1 SMP PREEMPT_DYNAMIC Sun Aug  6 20:05:33 UTC 2023 x86_64
+[23-Jun-2025 08:39:02 UTC] PHP Version: 8.2.13
+[23-Jun-2025 08:39:02 UTC] Max Upload Size: 2M
+[23-Jun-2025 08:39:02 UTC] Max Post Size: 8M
+[23-Jun-2025 08:39:02 UTC] Upload directory ready: /project/sandbox/user-workspace/uploads
+[23-Jun-2025 08:39:02 UTC] Directory permissions: 0777
+[23-Jun-2025 08:39:02 UTC] Form submitted via POST
+[23-Jun-2025 08:39:02 UTC] File upload detected. Processing...
+[23-Jun-2025 08:39:02 UTC] Upload details: Array
+(
+    [name] => programmer-resume.pdf
+    [full_path] => programmer-resume.pdf
+    [type] => application/pdf
+    [tmp_name] => /tmp/phpg2pJeX
+    [error] => 0
+    [size] => 97198
+)
+
+[23-Jun-2025 08:39:02 UTC] Processing file: programmer-resume.pdf, Type: application/pdf, Size: 97198 bytes
+[23-Jun-2025 08:39:02 UTC] File successfully uploaded to: uploads/685912a6524be_programmer-resume.pdf
+[23-Jun-2025 08:39:02 UTC] Memproses file: uploads/685912a6524be_programmer-resume.pdf (Tipe: application/pdf)
+[23-Jun-2025 08:39:02 UTC] Simulasi parsing PDF untuk file: 685912a6524be_programmer-resume.pdf
+[23-Jun-2025 08:39:02 UTC] CV successfully parsed, text length: 1240
+[23-Jun-2025 08:39:24 UTC] === Starting CV processing test ===
+[23-Jun-2025 08:39:24 UTC] Server Info: Linux 4dfnqm 6.1.43 #1 SMP PREEMPT_DYNAMIC Sun Aug  6 20:05:33 UTC 2023 x86_64
+[23-Jun-2025 08:39:24 UTC] PHP Version: 8.2.13
+[23-Jun-2025 08:39:24 UTC] Max Upload Size: 2M
+[23-Jun-2025 08:39:24 UTC] Max Post Size: 8M
+[23-Jun-2025 08:39:24 UTC] Upload directory ready: /project/sandbox/user-workspace/uploads
+[23-Jun-2025 08:39:24 UTC] Directory permissions: 0777
+[23-Jun-2025 08:39:24 UTC] Form submitted via POST
+[23-Jun-2025 08:39:24 UTC] File upload detected. Processing...
+[23-Jun-2025 08:39:24 UTC] Upload details: Array
+(
+    [name] => programmer-resume.pdf
+    [full_path] => programmer-resume.pdf
+    [type] => application/pdf
+    [tmp_name] => /tmp/phpWnHQe0
+    [error] => 0
+    [size] => 97198
+)
+
+[23-Jun-2025 08:39:24 UTC] Processing file: programmer-resume.pdf, Type: application/pdf, Size: 97198 bytes
+[23-Jun-2025 08:39:24 UTC] File successfully uploaded to: uploads/685912bcc7d3c_programmer-resume.pdf
+[23-Jun-2025 08:39:24 UTC] Memproses file: uploads/685912bcc7d3c_programmer-resume.pdf (Tipe: application/pdf)
+[23-Jun-2025 08:39:24 UTC] Simulasi parsing PDF untuk file: 685912bcc7d3c_programmer-resume.pdf
+[23-Jun-2025 08:39:24 UTC] CV successfully parsed, text length: 1240
+[23-Jun-2025 08:40:09 UTC] === Starting CV processing test ===
+[23-Jun-2025 08:40:09 UTC] Server Info: Linux 4dfnqm 6.1.43 #1 SMP PREEMPT_DYNAMIC Sun Aug  6 20:05:33 UTC 2023 x86_64
+[23-Jun-2025 08:40:09 UTC] PHP Version: 8.2.13
+[23-Jun-2025 08:40:09 UTC] Max Upload Size: 2M
+[23-Jun-2025 08:40:09 UTC] Max Post Size: 8M
+[23-Jun-2025 08:40:09 UTC] Upload directory ready: /project/sandbox/user-workspace/uploads
+[23-Jun-2025 08:40:09 UTC] Directory permissions: 0777
+[23-Jun-2025 08:40:09 UTC] Form submitted via POST
+[23-Jun-2025 08:40:09 UTC] File upload detected. Processing...
+[23-Jun-2025 08:40:09 UTC] Upload details: Array
+(
+    [name] => programmer-resume.pdf
+    [full_path] => programmer-resume.pdf
+    [type] => application/pdf
+    [tmp_name] => /tmp/php1q7nWZ
+    [error] => 0
+    [size] => 97198
+)
+
+[23-Jun-2025 08:40:09 UTC] Processing file: programmer-resume.pdf, Type: application/pdf, Size: 97198 bytes
+[23-Jun-2025 08:40:09 UTC] File successfully uploaded to: uploads/685912e933f54_programmer-resume.pdf
+[23-Jun-2025 08:40:09 UTC] Memproses file: uploads/685912e933f54_programmer-resume.pdf (Tipe: application/pdf)
+[23-Jun-2025 08:40:09 UTC] Simulasi parsing PDF untuk file: 685912e933f54_programmer-resume.pdf
+[23-Jun-2025 08:40:09 UTC] CV successfully parsed, text length: 1240
+[23-Jun-2025 09:02:00 UTC] Starting CV processing...
+[23-Jun-2025 09:02:00 UTC] PHP Fatal error:  Uncaught Error: Class "mysqli" not found in /project/sandbox/user-workspace/config/database.php:9
+Stack trace:
+#0 /project/sandbox/user-workspace/process_cv.php(29): require_once()
+#1 {main}
+  thrown in /project/sandbox/user-workspace/config/database.php on line 9
+[23-Jun-2025 09:25:53 UTC] Starting CV processing...
+[23-Jun-2025 09:25:53 UTC] Form submitted via POST
+[23-Jun-2025 09:25:53 UTC] Processing file: programmer-resume.pdf, Type: application/pdf, Size: 97198 bytes
+[23-Jun-2025 09:25:53 UTC] File successfully uploaded to: uploads/68591da170854_programmer-resume.pdf
+[23-Jun-2025 09:25:53 UTC] Memproses file: uploads/68591da170854_programmer-resume.pdf (Tipe: application/pdf)
+[23-Jun-2025 09:25:53 UTC] Simulasi parsing PDF untuk file: 68591da170854_programmer-resume.pdf
+[23-Jun-2025 09:25:53 UTC] CV successfully parsed, text length: 1285
+[23-Jun-2025 09:25:53 UTC] Detected language: id
+[23-Jun-2025 09:25:53 UTC] PHP Warning:  Undefined property: PDOStatement::$num_rows in /project/sandbox/user-workspace/classes/NaiveBayes.php on line 174
+[23-Jun-2025 09:25:53 UTC] Found 0 matching jobs above threshold
+[23-Jun-2025 09:25:53 UTC] Found 0 matching jobs
+[23-Jun-2025 09:31:58 UTC] Starting CV processing...
+[23-Jun-2025 09:31:58 UTC] Form submitted via POST
+[23-Jun-2025 09:31:58 UTC] Processing file: programmer-resume.pdf, Type: application/pdf, Size: 97198 bytes
+[23-Jun-2025 09:31:58 UTC] File successfully uploaded to: uploads/68591f0ef2d1b_programmer-resume.pdf
+[23-Jun-2025 09:31:58 UTC] Memproses file: uploads/68591f0ef2d1b_programmer-resume.pdf (Tipe: application/pdf)
+[23-Jun-2025 09:31:58 UTC] Simulasi parsing PDF untuk file: 68591f0ef2d1b_programmer-resume.pdf
+[23-Jun-2025 09:31:58 UTC] CV successfully parsed, text length: 1285
+[23-Jun-2025 09:31:58 UTC] Detected language: id
+[23-Jun-2025 09:31:58 UTC] Match details - Job: Frontend Developer, Base prob: 0.16, Category matches: 7, Final prob: 0.28
+[23-Jun-2025 09:31:58 UTC] Match details - Job: Senior PHP Developer, Base prob: 0.16, Category matches: 7, Final prob: 0.28
+[23-Jun-2025 09:31:58 UTC] Found 2 matching jobs above threshold
+[23-Jun-2025 09:31:58 UTC] Found 2 matching jobs
