@@ -1,0 +1,48 @@
+CURRICULUM VITAE
+
+Nama: John Smith
+Email: john.smith@email.com
+Telepon: 0812-3456-7890
+Alamat: Jakarta, Indonesia
+
+RINGKASAN PROFESIONAL
+Software Developer dengan pengalaman 5 tahun dalam pengembangan web dan aplikasi. Ahli dalam PHP, JavaScript, dan berbagai framework modern. Memiliki track record yang kuat dalam mengembangkan solusi yang scalable dan maintainable.
+
+KEAHLIAN TEKNIS
+- Languages: PHP, JavaScript, Python, HTML5, CSS3
+- Frameworks: Laravel, React, Vue.js, Node.js
+- Database: MySQL, PostgreSQL, MongoDB
+- Tools: Git, Docker, AWS, Jenkins
+- Testing: PHPUnit, Jest
+- Metodologi: Agile, Scrum
+
+PENGALAMAN KERJA
+
+Senior Software Developer | TechCorp Indonesia
+Januari 2021 - Sekarang
+- Mengembangkan dan memelihara aplikasi web enterprise menggunakan PHP/Laravel
+- Mengimplementasikan frontend dengan React dan Vue.js
+- Mengelola deployment dan CI/CD pipeline
+- Melakukan code review dan mentoring junior developers
+- Mengoptimasi performa aplikasi dan database
+
+Web Developer | Digital Solutions
+Januari 2019 - Desember 2020
+- Mengembangkan website dan aplikasi web untuk berbagai klien
+- Mengimplementasikan responsive design dan mobile-first approach
+- Integrasi dengan berbagai API dan third-party services
+- Maintenance dan troubleshooting sistem yang ada
+
+PENDIDIKAN
+S1 Teknik Informatika
+Universitas Indonesia
+2015 - 2019
+
+SERTIFIKASI
+- AWS Certified Developer
+- Laravel Certified Developer
+- Professional Scrum Master I
+
+BAHASA
+- Indonesia (Native)
+- English (Professional)
