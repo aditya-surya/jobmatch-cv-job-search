@@ -108,3 +108,15 @@ Stack trace:
 [23-Jun-2025 09:31:58 UTC] Match details - Job: Senior PHP Developer, Base prob: 0.16, Category matches: 7, Final prob: 0.28
 [23-Jun-2025 09:31:58 UTC] Found 2 matching jobs above threshold
 [23-Jun-2025 09:31:58 UTC] Found 2 matching jobs
+[23-Jun-2025 09:41:43 UTC] Starting CV processing...
+[23-Jun-2025 09:41:43 UTC] Form submitted via POST
+[23-Jun-2025 09:41:43 UTC] Processing file: programmer-resume.pdf, Type: application/pdf, Size: 97198 bytes
+[23-Jun-2025 09:41:43 UTC] File successfully uploaded to: uploads/6859215701363_programmer-resume.pdf
+[23-Jun-2025 09:41:43 UTC] Memproses file: uploads/6859215701363_programmer-resume.pdf (Tipe: application/pdf)
+[23-Jun-2025 09:41:43 UTC] Simulasi parsing PDF untuk file: 6859215701363_programmer-resume.pdf
+[23-Jun-2025 09:41:43 UTC] CV successfully parsed, text length: 1285
+[23-Jun-2025 09:41:43 UTC] Detected language: id
+[23-Jun-2025 09:41:43 UTC] Match details - Job: Frontend Developer, Base prob: 0.16, Category matches: 7, Final prob: 0.28
+[23-Jun-2025 09:41:43 UTC] Match details - Job: Senior PHP Developer, Base prob: 0.16, Category matches: 7, Final prob: 0.28
+[23-Jun-2025 09:41:43 UTC] Found 2 matching jobs above threshold
+[23-Jun-2025 09:41:43 UTC] Found 2 matching jobs
