@@ -8,7 +8,6 @@ if (!isset($_SESSION['matching_jobs']) || empty($_SESSION['matching_jobs'])) {
 }
 
 $matching_jobs = $_SESSION['matching_jobs'];
-$cv_text = $_SESSION['cv_text'] ?? '';
 ?>
 
 <!DOCTYPE html>
@@ -44,6 +43,13 @@ $cv_text = $_SESSION['cv_text'] ?? '';
             font-size: 0.875rem;
             margin-right: 0.5rem;
         }
+        .job-link {
+            text-decoration: none;
+            color: inherit;
+        }
+        .job-link:hover {
+            color: inherit;
+        }
     </style>
 </head>
 <body>
@@ -53,70 +59,56 @@ $cv_text = $_SESSION['cv_text'] ?? '';
             <p class="text-muted">Berikut adalah lowongan yang paling sesuai dengan CV Anda</p>
         </div>
 
-        <?php if (!empty($cv_text)): ?>
-        <div class="card mb-4 shadow-sm">
-            <div class="card-body">
-                <h5 class="card-title mb-3">
-                    <i class="fas fa-file-alt me-2"></i>
-                    Ringkasan CV
-                </h5>
-                <p class="card-text text-muted"><?php echo htmlspecialchars($cv_text); ?></p>
-            </div>
-        </div>
-        <?php endif; ?>
-
         <div class="row row-cols-1 row-cols-md-2 g-4 mb-4">
             <?php foreach ($matching_jobs as $job): ?>
                 <div class="col">
-                    <div class="card h-100 shadow-sm job-card">
-                        <div class="card-body">
-                            <span class="match-score">
-                                <i class="fas fa-chart-line me-2"></i>
-                                <?php echo round($job['match_score'] * 100); ?>% Match
-                            </span>
-                            
-                            <h5 class="card-title mb-3"><?php echo htmlspecialchars($job['judul']); ?></h5>
-                            
-                            <p class="card-text mb-2">
-                                <i class="fas fa-building me-2"></i>
-                                <?php echo htmlspecialchars($job['perusahaan']); ?>
-                            </p>
-                            
-                            <p class="card-text mb-2">
-                                <i class="fas fa-map-marker-alt me-2"></i>
-                                <?php echo htmlspecialchars($job['lokasi']); ?>
-                            </p>
-                            
-                            <div class="mb-3">
-                                <span class="category-badge">
-                                    <?php echo htmlspecialchars($job['nama_kategori']); ?>
+                    <a href="job_detail.php?id=<?php echo $job['id']; ?>" class="job-link">
+                        <div class="card h-100 shadow-sm job-card">
+                            <div class="card-body">
+                                <span class="match-score">
+                                    <i class="fas fa-chart-line me-2"></i>
+                                    <?php echo round($job['match_score'] * 100); ?>% Match
                                 </span>
-                                <span class="category-badge">
-                                    <?php echo htmlspecialchars($job['sumber']); ?>
-                                </span>
-                            </div>
-                            
-                            <div class="card-text mb-3">
-                                <h6 class="mb-2">Deskripsi:</h6>
-                                <p class="text-muted">
-                                    <?php echo nl2br(htmlspecialchars(substr($job['deskripsi'], 0, 200) . '...')); ?>
+                                
+                                <h5 class="card-title mb-3"><?php echo htmlspecialchars($job['judul']); ?></h5>
+                                
+                                <p class="card-text mb-2">
+                                    <i class="fas fa-building me-2"></i>
+                                    <?php echo htmlspecialchars($job['perusahaan']); ?>
                                 </p>
-                            </div>
-                            
-                            <div class="card-text">
-                                <h6 class="mb-2">Persyaratan:</h6>
-                                <p class="text-muted">
-                                    <?php echo nl2br(htmlspecialchars(substr($job['persyaratan'], 0, 200) . '...')); ?>
+                                
+                                <p class="card-text mb-2">
+                                    <i class="fas fa-map-marker-alt me-2"></i>
+                                    <?php echo htmlspecialchars($job['lokasi']); ?>
                                 </p>
+                                
+                                <div class="mb-3">
+                                    <span class="category-badge">
+                                        <?php echo htmlspecialchars($job['nama_kategori']); ?>
+                                    </span>
+                                    <span class="category-badge">
+                                        <?php echo htmlspecialchars($job['sumber']); ?>
+                                    </span>
+                                </div>
+                                
+                                <div class="card-text mb-3">
+                                    <h6 class="mb-2">Deskripsi:</h6>
+                                    <p class="text-muted">
+                                        <?php echo nl2br(htmlspecialchars(substr($job['deskripsi'], 0, 150) . '...')); ?>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-transparent">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <small class="text-muted">
+                                        <i class="fas fa-calendar me-2"></i>
+                                        Posted: <?php echo date('d M Y', strtotime($job['tanggal_posting'])); ?>
+                                    </small>
+                                    <span class="text-primary">Lihat Detail <i class="fas fa-arrow-right ms-1"></i></span>
+                                </div>
                             </div>
                         </div>
-                        <div class="card-footer bg-transparent">
-                            <small class="text-muted">
-                                <i class="fas fa-calendar me-2"></i>
-                                Posted: <?php echo date('d M Y', strtotime($job['tanggal_posting'])); ?>
-                            </small>
-                        </div>
-                    </div>
+                    </a>
                 </div>
             <?php endforeach; ?>
         </div>
